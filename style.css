@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    width: 100%; height: 650px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Images/Office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menubar{
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 25%;
+    text-align: center;
+    color: #3dd1b4;
+    font-size: 20px;
+}
+
+.menu{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div .menubar .menu a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main{
+    margin-top: 120px;
+    color: white;
+    width: 100%;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn1{
+    margin-top: 50px; 
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: #00b894;
+}
+
+.service{
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+
+.sercontent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.bg{
+    outline: 2px solid black;
+    width: 100%; height: 500px;
+    background-image:linear-gradient(rgba(5, 1, 23, 0.75),rgba(5, 1, 23, 0.75)), url(./Images/mountainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature{
+    text-align: center;
+    padding: 60px;
+    color: white;
+}
+
+.hr{
+    margin: 20px 600px 20px 600px;
+    color: #00b894;
+
+}
+
+.ftrcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+
+.work{
+    text-align: center;
+}
+    
+.b1{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: #00b894;
+}
+.b2{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: #00b894;
+}
+.b3{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: #00b894;
+}
+.b4{
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: #00b894;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.video{
+    background-color: #3dd1b4;
+    width: 100%;
+    height: 500px;
+    padding: 80px 0px 150px 0px;
+    margin: 80px 0px 30px 0px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.tablecnt{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.free{
+    background-color: rgb(236, 231, 231);
+    padding: 29px 150px 29px 150px;
+    font-size: 25px;
+    font-weight: 750;
+}
+.popular{
+    background-color: rgb(236, 231, 231);
+    padding: 29px 130px 29px 130px;
+    font-size: 25px;
+    font-weight: 750;
+
+}
+.premium{
+    background-color: rgb(236, 231, 231);
+    padding: 29px 125px 29px 125px;
+    font-size: 25px;
+    font-weight: 750;
+}
+.price{
+    padding: 20px 0px 30px 0px;
+    color: #3dd1b4;
+    font-size: 40px;
+    font-weight: 500;
+}
+.getplan{
+    margin-top: 70px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px;
+    background-color: #3dd1b4;
+    
+}
+.planb1{
+    margin: 70px 0px 20px 0px
+}
+.planb2{
+    margin: 70px 0px 20px 0px
+}
+.planb3{
+    margin: 70px 0px 20px 0px
+}
+
+.grnbg{
+    width: 100%; height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Images/grnbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;   
+}
+
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #3dd1b4;
+}
